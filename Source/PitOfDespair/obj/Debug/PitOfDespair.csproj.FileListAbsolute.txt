@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PitOfDespair\Source\PitOfDespair\obj\Debug\PitOfDespair.AssemblyInfoInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PitOfDespair\Source\PitOfDespair\obj\Debug\PitOfDespair.AssemblyInfo.cs
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PitOfDespair\Source\PitOfDespair\obj\Debug\PitOfDespair.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PitOfDespair\Source\PitOfDespair\obj\Debug\PitOfDespair.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PitOfDespair\Source\PitOfDespair\obj\Debug\PitOfDespair.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PitOfDespair\1.4\Assemblies\PitOfDespair.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PitOfDespair\Source\PitOfDespair\obj\Debug\PitOfDespair.dll

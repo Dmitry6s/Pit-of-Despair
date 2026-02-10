@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>PD_PitOfDespair</defName>
+    <label>Pit of Despair</label>
+    <description>A dark, putrid pit has been dug into the ground. Its slick walls are impossible to climb unassisted, making escape from the pit unfeasible. There is no place to properly sleep on the uneven ground of the pit's bottom, no sanitation and no fresh air, making it a living hell for anyone unlucky enough to be kept trapped inside. Without food being thrown at the pit, anyone inside will quickly starve and dehydrate. \n\nThe inhumane conditions in the Pit of Despair take an important toll on the prisoners inside, and many times the person who is released from the pit isn't quite the same as the one who entered.\n\nNote that all tasks associated with the Pit use the Warden job type.</description>
+    <graphicData>
+      <texPath>Things/Building/PD_PitOfDespair</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3.5,3.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <size>(2,2)</size>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <uiIconScale>0.75</uiIconScale>
+    <thingClass>PitOfDespair.Building_Pit</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>25</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0.8</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <Flammability>0</Flammability>
+      <WorkToBuild>2200</WorkToBuild>
+      <MaxHitPoints>5000</MaxHitPoints>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <designationCategory>Misc</designationCategory>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <inspectorTabs>
+      <li>PitOfDespair.ITab_PitContents</li>
+      <li>PitOfDespair.ITab_FilteredRefuel</li>
+    </inspectorTabs>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <fixedStorageSettings>
+        <priority>Critical</priority>
+        <filter>
+          <categories>
+            <li>Foods</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <priority>Critical</priority>
+        <filter>
+          <categories>
+            <li>Foods</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>Chocolate</li>
+            <li>Pemmican</li>
+            <li>Hay</li>
+          </disallowedThingDefs>
+          <disallowedCategories>
+            <li>FoodMeals</li>
+            <li>EggsFertilized</li>
+          </disallowedCategories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <comps>
+      <li Class="PitOfDespair.CompProperties_Pit">
+        <restEffectiveness>0.8</restEffectiveness>
+        <massCapacity>36000</massCapacity>
+        <maxPrisoners>10</maxPrisoners>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <compClass>PitOfDespair.CompFilteredRefuelable</compClass>
+        <fuelConsumptionRate>8.0</fuelConsumptionRate>
+        <fuelCapacity>25.0</fuelCapacity>
+        <fuelIconPath>Things/Item/PD_NonDescriptVegetables</fuelIconPath>
+        <fuelFilter>
+          <categories>
+            <li>Foods</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>Chocolate</li>
+            <li>Pemmican</li>
+            <li>Hay</li>
+          </disallowedThingDefs>
+          <disallowedCategories>
+            <li>FoodMeals</li>
+            <li>EggsFertilized</li>
+          </disallowedCategories>
+        </fuelFilter>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <destroyable>true</destroyable>
+    <rotatable>false</rotatable>
+  </ThingDef>
+</Defs>

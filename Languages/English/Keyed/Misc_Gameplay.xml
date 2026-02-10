@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Various -->
+  <PD_FinishedLoadingPit>Your colonists have finished throwing prisoners into the pit of despair</PD_FinishedLoadingPit>
+  <PD_ThrowPrisoner>Throw prisoner</PD_ThrowPrisoner>
+  <PD_ThrowPrisonerDesc>Throw a prisoner into the pit of despair. Prisoners need to be in a prison first to be thrown into the pit.</PD_ThrowPrisonerDesc>
+  <PD_ThrowPrisonerCancelled>The pit has been destroyed</PD_ThrowPrisonerCancelled>
+  <PD_PrisonersInside>Prisoners inside</PD_PrisonersInside>
+  <PD_PrisonersBeingLoaded>Prisoners are being loaded into the pit</PD_PrisonersBeingLoaded>
+  <PD_NoPrisonersSelected>No prisoners have been selected to be thrown into the pit</PD_NoPrisonersSelected>
+  <PD_NoSpaceInThePit>There isn't space in the pit for so many people</PD_NoSpaceInThePit>
+  <PD_UnreacheablePit>The pit can't be reached!</PD_UnreacheablePit>
+  <PD_FeedPrisoners>Pit Foods</PD_FeedPrisoners>
+  <PD_FeedPrisonersLabel>Select food</PD_FeedPrisonersLabel>
+  <PD_TabPrisonerContents>Prisoners</PD_TabPrisonerContents>
+  <PD_PrisonersInThePit>Prisoners in the Pit</PD_PrisonersInThePit>
+  <PD_NoFood>No food found to throw into the Pit</PD_NoFood>
+  <PD_NoFoodAlertLabel>Prisoners in the Pit is starving!</PD_NoFoodAlertLabel>
+  <PD_NoFoodInThePit>Prisoners in the Pit have no food and will starve to death</PD_NoFoodInThePit>
+  <PD_ConsecrateCthulhu>Consecrate to Cthulhu</PD_ConsecrateCthulhu>
+  <PD_ConsecrateCthulhuDesc>Consecrate this Pit of Despair to Cthulhu. This is only a cosmetic option.</PD_ConsecrateCthulhuDesc>
+  <PD_ConsecrateBast>Consecrate to Bast</PD_ConsecrateBast>
+  <PD_ConsecrateBastDesc>Consecrate this Pit of Despair to Bast. This is only a cosmetic option.</PD_ConsecrateBastDesc>
+  <PD_ConsecrateBones>Consecrate to Court of Bones</PD_ConsecrateBones>
+  <PD_ConsecrateBonesDesc>Consecrate this Pit of Despair to the Court of Bones. This is only a cosmetic option.</PD_ConsecrateBonesDesc>
+  <PD_UnConsecrate>Unconsecrate pit</PD_UnConsecrate>
+  <PD_UnConsecrateDesc>Unconsecrate this Pit of Despair to keep its original appearance.</PD_UnConsecrateDesc>
+  <PD_ConsecratingCthulhu>Consecrating this Pit of Despair to Cthulhu</PD_ConsecratingCthulhu>
+  <PD_ConsecratingBast>Consecrating this Pit of Despair to Bast</PD_ConsecratingBast>
+  <PD_ConsecratingBones>Consecrating this Pit of Despair to the Court of Bones</PD_ConsecratingBones>
+  <PD_UnConsecrating>Unconsecrating this Pit of Despair</PD_UnConsecrating>
+</LanguageData>

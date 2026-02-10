@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>PD_LoadPit</defName>
+    <label>load pit</label>
+    <giverClass>PitOfDespair.WorkGiver_LoadPit</giverClass>
+    <workType>Warden</workType>
+    <verb>load</verb>
+    <gerund>loading</gerund>
+    <priorityInType>110</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>PD_FilteredRefuel</defName>
+    <label>refuel fuelable buildings</label>
+    <giverClass>PitOfDespair.WorkGiver_FilteredRefuel</giverClass>
+    <workType>Warden</workType>
+    <verb>refuel</verb>
+    <gerund>refueling</gerund>
+    <priorityInType>60</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+</Defs>

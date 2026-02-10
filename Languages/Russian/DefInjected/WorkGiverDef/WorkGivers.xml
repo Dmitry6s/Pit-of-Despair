@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PD_LoadPit.label>загрузочная яма</PD_LoadPit.label>
+  <PD_LoadPit.verb>погрузить</PD_LoadPit.verb>
+  <PD_LoadPit.gerund>погрузка</PD_LoadPit.gerund>
+
+  <PD_FilteredRefuel.label>заправка топливосодержащих зданий</PD_FilteredRefuel.label>
+  <PD_FilteredRefuel.verb>заправить</PD_FilteredRefuel.verb>
+  <PD_FilteredRefuel.gerund>заправка</PD_FilteredRefuel.gerund>
+
+
+</LanguageData>

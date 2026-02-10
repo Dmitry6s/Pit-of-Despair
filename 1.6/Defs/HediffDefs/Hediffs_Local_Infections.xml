@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="DiseaseBase">
+    <defName>PD_Psychosis</defName>
+    <description>This person has become deeply traumatized by the experience inside the Pit of Despair.</description>
+    <label>psychosis</label>
+    <stages>
+      <li>
+        <partEfficiencyOffset>-0.25</partEfficiencyOffset>
+        <capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <offset>-0.5</offset>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>-0.5</offset>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>WanderConfused</mentalState>
+            <mtbDays>2</mtbDays>
+          </li>
+        </mentalStateGivers>
+        <forgetMemoryThoughtMtbDays>4</forgetMemoryThoughtMtbDays>
+        <pctConditionalThoughtsNullified>0.25</pctConditionalThoughtsNullified>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="DiseaseBase">
+    <defName>PD_BrainEatingParasites</defName>
+    <description>An alien parasite has gotten hold of this person. If the parasite isn't treated properly it will eventually eat the brain and kill the host.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>brain eating parasite</label>
+    <initialSeverity>0.3</initialSeverity>
+    <chanceToCauseNoPain>0.3</chanceToCauseNoPain>
+    <tendable>true</tendable>
+    <stages>
+      <li>
+        <label>minor</label>
+        <partEfficiencyOffset>-0.1</partEfficiencyOffset>
+        <painOffset>0.1</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.15</minSeverity>
+        <label>minor</label>
+        <partEfficiencyOffset>-0.25</partEfficiencyOffset>
+        <painOffset>0.2</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <label>major</label>
+        <partEfficiencyOffset>-0.5</partEfficiencyOffset>
+        <painOffset>0.35</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.6</minSeverity>
+        <label>major</label>
+        <partEfficiencyOffset>-0.8</partEfficiencyOffset>
+        <painOffset>0.5</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>extreme</label>
+        <partEfficiencyOffset>-0.9</partEfficiencyOffset>
+        <painOffset>0.6</painOffset>
+      </li>
+      <li>
+        <minSeverity>1</minSeverity>
+        <label>extreme</label>
+        <partEfficiencyOffset>-1.0</partEfficiencyOffset>
+        <painOffset>0.7</painOffset>
+        <destroyPart>true</destroyPart>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>96</baseTendDurationHours>
+        <severityPerDayTended>-0.0027</severityPerDayTended>
+      </li>
+      <li Class="HediffCompProperties_GrowthMode">
+        <severityPerDayGrowing>0.01</severityPerDayGrowing>
+        <severityPerDayRemission>-0.002</severityPerDayRemission>
+        <severityPerDayGrowingRandomFactor>
+          <min>0.45</min>
+          <max>1.65</max>
+        </severityPerDayGrowingRandomFactor>
+        <severityPerDayRemissionRandomFactor>
+          <min>0.7</min>
+          <max>1.5</max>
+        </severityPerDayRemissionRandomFactor>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

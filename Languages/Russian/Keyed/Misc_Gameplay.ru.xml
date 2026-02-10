@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Various -->
+  <PD_FinishedLoadingPit>Ваши колонисты закончили сбрасывать заключенных в Яму отчаяния</PD_FinishedLoadingPit>
+  <PD_ThrowPrisoner>Сбросить заключенного</PD_ThrowPrisoner>
+  <PD_ThrowPrisonerDesc>Сбросить заключенного в Яму отчаяния. Чтобы быть сброшенными в яму, заключенные сначала должны находиться в тюрьме.</PD_ThrowPrisonerDesc>
+  <PD_ThrowPrisonerCancelled>Яма была разрушена</PD_ThrowPrisonerCancelled>
+  <PD_PrisonersInside>Заключенные внутри</PD_PrisonersInside>
+  <PD_PrisonersBeingLoaded>Заключенных сбрасывают в яму</PD_PrisonersBeingLoaded>
+  <PD_NoPrisonersSelected>Не выбрано ни одного заключенного для сброса в яму</PD_NoPrisonersSelected>
+  <PD_NoSpaceInThePit>В яме недостаточно места для такого количества людей</PD_NoSpaceInThePit>
+  <PD_UnreacheablePit>Невозможно добраться до ямы!</PD_UnreacheablePit>
+  <PD_FeedPrisoners>Еда для ямы</PD_FeedPrisoners>
+  <PD_FeedPrisonersLabel>Выбрать еду</PD_FeedPrisonersLabel>
+  <PD_TabPrisonerContents>Заключенные</PD_TabPrisonerContents>
+  <PD_PrisonersInThePit>Заключенные в Яме</PD_PrisonersInThePit>
+  <PD_NoFood>Не найдено еды, которую можно было бы сбросить в Яму</PD_NoFood>
+  <PD_NoFoodAlertLabel>Заключенные в Яме голодают!</PD_NoFoodAlertLabel>
+  <PD_NoFoodInThePit>У заключенных в Яме нет еды, они умрут от голода</PD_NoFoodInThePit>
+  <PD_ConsecrateCthulhu>Посвятить Ктулху</PD_ConsecrateCthulhu>
+  <PD_ConsecrateCthulhuDesc>Посвятить эту Яму отчаяния Ктулху. Это только внешнее изменение.</PD_ConsecrateCthulhuDesc>
+  <PD_ConsecrateBast>Посвятить Баст</PD_ConsecrateBast>
+  <PD_ConsecrateBastDesc>Посвятить эту Яму отчаяния Баст. Это только внешнее изменение.</PD_ConsecrateBastDesc>
+  <PD_ConsecrateBones>Посвятить Двору Костей</PD_ConsecrateBones>
+  <PD_ConsecrateBonesDesc>Посвятить эту Яму отчаяния Двору Костей. Это только внешнее изменение.</PD_ConsecrateBonesDesc>
+  <PD_UnConsecrate>Снять посвящение</PD_UnConsecrate>
+  <PD_UnConsecrateDesc>Снять посвящение с этой Ямы отчаяния и вернуть ей первоначальный вид.</PD_UnConsecrateDesc>
+  <PD_ConsecratingCthulhu>Посвящение этой Ямы отчаяния Ктулху</PD_ConsecratingCthulhu>
+  <PD_ConsecratingBast>Посвящение этой Ямы отчаяния Баст</PD_ConsecratingBast>
+  <PD_ConsecratingBones>Посвящение этой Ямы отчаяния Двору Костей</PD_ConsecratingBones>
+  <PD_UnConsecrating>Снятие посвящения с этой Ямы отчаяния</PD_UnConsecrating>
+</LanguageData>

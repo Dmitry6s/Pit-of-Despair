@@ -1,0 +1,7 @@
+D:\Project\RimWorld\Mods\Pit of Despair\Source\PitOfDespair\obj\Release\PitOfDespair.csproj.AssemblyReference.cache
+D:\Project\RimWorld\Mods\Pit of Despair\Source\PitOfDespair\obj\Release\PitOfDespair.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\RimWorld\Mods\Pit of Despair\Source\PitOfDespair\obj\Release\PitOfDespair.AssemblyInfoInputs.cache
+D:\Project\RimWorld\Mods\Pit of Despair\Source\PitOfDespair\obj\Release\PitOfDespair.AssemblyInfo.cs
+D:\Project\RimWorld\Mods\Pit of Despair\Source\PitOfDespair\obj\Release\PitOfDespair.csproj.CoreCompileInputs.cache
+D:\Project\RimWorld\Mods\Pit of Despair\1.6\Assemblies\PitOfDespair.dll
+D:\Project\RimWorld\Mods\Pit of Despair\Source\PitOfDespair\obj\Release\PitOfDespair.dll

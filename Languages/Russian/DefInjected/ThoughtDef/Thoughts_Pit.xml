@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PD_ThrownIntoPit.stages.0.label>Брошен в яму отчаяния</PD_ThrownIntoPit.stages.0.label>
+  <PD_ThrownIntoPit.stages.0.description>Меня бросили в темную страшную яму. Я страдал от невообразимых ужасов. И все ради чего?</PD_ThrownIntoPit.stages.0.description>
+
+  <PD_ThrownPrisonerIntoPit.stages.0.label>Бросил пленника в Яму</PD_ThrownPrisonerIntoPit.stages.0.label>
+  <PD_ThrownPrisonerIntoPit.stages.0.description>Должны ли мы так обращаться с заключенными? Я имею в виду, что это место не просто так называется «Ямой Отчаяния»...</PD_ThrownPrisonerIntoPit.stages.0.description>
+
+  <PD_ThrownPrisonerIntoPitImLovinIt.stages.0.label>Мне нравится Яма Отчаяния</PD_ThrownPrisonerIntoPitImLovinIt.stages.0.label>
+  <PD_ThrownPrisonerIntoPitImLovinIt.stages.0.description>Она научит заключенного вести себя хорошо.</PD_ThrownPrisonerIntoPitImLovinIt.stages.0.description>
+
+
+</LanguageData>

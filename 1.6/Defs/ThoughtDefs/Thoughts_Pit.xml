@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>PD_ThrownIntoPit</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>Thrown into the Pit of Despair.</label>
+        <description>I was thrown into a dark, terrible pit. I suffered unimaginable horrors and I didn't even emerge from it being Batman.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PD_ThrownPrisonerIntoPit</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>Bloodlust</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Threw prisoner into the Pit.</label>
+        <description>Should we be treating prisoners this way? I mean, it's called the Pit of Despair for a reason...</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PD_ThrownPrisonerIntoPitImLovinIt</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <requiredTraits>
+      <li>Psychopath</li>
+      <li>Bloodlust</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>I love the Pit of Despair.</label>
+        <description>That will teach that prisoner to behave.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

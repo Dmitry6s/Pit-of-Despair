@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DutyDef>
+    <defName>PD_LoadAndEnterPit</defName>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <!-- Basic needs -->
+        <li Class="ThinkNode_Subtree">
+          <treeDef>SatisfyVeryUrgentNeeds</treeDef>
+        </li>
+        <!-- Load transport pods -->
+        <li Class="PitOfDespair.JobGiver_HaulToPit" />
+        <!-- Drop items if you're assigned to unload everything -->
+        <!-- (before entering the transporter!) -->
+        <li Class="JobGiver_UnloadYourInventory" />
+        <!-- Enter -->
+        <li Class="PitOfDespair.JobGiver_EnterPit" />
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+</Defs>

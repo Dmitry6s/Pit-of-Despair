@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PD_Psychosis.label>психоз</PD_Psychosis.label>
+  <PD_Psychosis.description>Этот человек получил глубокую травму, находясь в Яме отчаяния.</PD_Psychosis.description>
+
+  <PD_BrainEatingParasites.label>паразит, пожирающий мозг</PD_BrainEatingParasites.label>
+  <PD_BrainEatingParasites.description>Инопланетный паразит завладел этим человеком. Если с паразитом не обращаться должным образом, он в конечном итоге съест мозг и убьет хозяина.</PD_BrainEatingParasites.description>
+  <PD_BrainEatingParasites.stages.0.label>незначительный</PD_BrainEatingParasites.stages.0.label>
+  <PD_BrainEatingParasites.stages.1.label>незначительный</PD_BrainEatingParasites.stages.1.label>
+  <PD_BrainEatingParasites.stages.2.label>большой</PD_BrainEatingParasites.stages.2.label>
+  <PD_BrainEatingParasites.stages.3.label>большой</PD_BrainEatingParasites.stages.3.label>
+  <PD_BrainEatingParasites.stages.4.label>экстремальный</PD_BrainEatingParasites.stages.4.label>
+  <PD_BrainEatingParasites.stages.5.label>экстремальный</PD_BrainEatingParasites.stages.5.label>
+
+
+</LanguageData>
